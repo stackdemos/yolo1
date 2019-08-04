@@ -1,0 +1,50 @@
+parameters:
+  - name: application.bucket.endpoint
+    value: 'https://ml3-minio.app.ml3.demo05.superhub.io'
+  - name: application.bucket.endpoint.internal
+    value: 'http://ml3-minio.minio.svc.cluster.local:9000'
+  - name: application.bucket.name
+    value: default
+  - name: application.bucket.region
+    value: us-east-1
+  - name: application.description
+    value: Kubflow pipeline
+  - name: application.jupyter.kernel.docker.auth.basic.username
+    value: admin
+  - name: application.jupyter.kernel.docker.auth.host
+    value: ml3-harbor.svc.ml3.demo05.superhub.io
+  - name: application.jupyter.kernel.docker.registry.image
+    value: ml3-harbor.svc.ml3.demo05.superhub.io/library/yolo1
+  - name: application.jupyter.kernel.docker.registry.kind
+    value: harbor
+  - name: application.jupyter.kernel.docker.registry.url
+    value: ml3-harbor.svc.ml3.demo05.superhub.io/library
+  - name: application.name
+    value: yolo1
+  - name: component.dex.okta.appId
+    value: 0oa3qn3ro7BnRqvWV2p7
+  - name: component.dex.okta.clientId
+    value: 0oa3qn3ro7BnRqvWV2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: yolo1
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.bucket.endpoint
+  - name: application.bucket.endpoint.internal
+  - name: application.bucket.name
+  - name: application.bucket.region
+  - name: application.description
+  - name: application.jupyter.kernel.docker.auth.basic.username
+  - name: application.jupyter.kernel.docker.auth.host
+  - name: application.jupyter.kernel.docker.registry.image
+  - name: application.jupyter.kernel.docker.registry.kind
+  - name: application.jupyter.kernel.docker.registry.url
+  - name: application.name
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
