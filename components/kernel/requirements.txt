@@ -22,3 +22,4 @@ joblib
 autopep8
 yapf
 ipdb
+pillow
